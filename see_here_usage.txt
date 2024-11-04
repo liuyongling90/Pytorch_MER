@@ -1,0 +1,21 @@
+Datasets  ,用来将标签映射，以及分成loso的txt文本.
+
+光流图在SLSTT-main 的process那进行获得光流,但是并没有进行裁剪.且是获取所有图片的光流，也就是先获取光流之后在做的标签映射。
+
+
+casme2,大家都是88,32,25,,少了几个样本是被剔除了.sub10,sub18没有样本直接剔除，sub08,sub21只有一个样本，文中说剔除，但实验并没有。
+（这个有待改进！！！！如果一个受试者只有一个图像，并且这个图像被用作验证集，它可能会对最终的UF1和UAR结果产生显著影响，使得结果偏高或偏低。）
+
+
+
+Datasets.py:选定特定的微表情光流图进行标签映射（只要消极，积极，惊讶类别），通过访问Me_Dataset获得一个样本以及对应标签
+
+datsets/casme2/LOF:  数据集casme2是我预处理后，所得的光流图。按每一个受试者存储。
+
+datasets/three_norm_u_v_os:  这是main.py 19年一篇论文的数据集。（三个数据集的拼接casme2,smic,samm）   他的光流图貌似更好
+
+MyTest/datasets/casme2_STSNet_OF: 这是我从main.py 19年一篇论文的数据集中把casme2数据集单独提出来，并按loso文件夹摆放。
+
+MyTest/datasets/casme2_STSNet_Whole_OF：这是从main.py 19年一篇论文的数据集中把casme2数据集单独提出来。没有按loso进行文件夹排版，这是用于HTNet均匀裁剪光流图成4块（5个区域）
+
+main.py:是19年一篇论文的代码，简单（三分支卷积处理三通道光流）。

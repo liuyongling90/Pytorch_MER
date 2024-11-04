@@ -1,0 +1,171 @@
+Subject:1
+Predicted    :[1, 1, 1]
+Ground Truth :[1, 0, 1]
+UF1:  0.4 | UAR: 0.5 
+train_acc:  0.8844 | train_loss: 52.1355 
+val_acc:  0.6667 | val_loss: 1.288 
+######################################
+Subject:2
+Predicted    :[2, 0, 0, 0, 2, 2, 2, 0, 1]
+Ground Truth :[2, 1, 1, 1, 2, 2, 0, 1, 1]
+UF1:  0.4675 | UAR: 0.4762 
+train_acc:  0.9007 | train_loss: 39.5129 
+val_acc:  0.4444 | val_loss: 12.9512 
+######################################
+Subject:3
+Predicted    :[1, 0, 1, 1, 1]
+Ground Truth :[1, 1, 1, 2, 1]
+UF1:  0.4605 | UAR: 0.4318 
+train_acc:  0.9103 | train_loss: 39.8253 
+val_acc:  0.6 | val_loss: 2.2358 
+######################################
+Subject:4
+Predicted    :[1, 1, 1]
+Ground Truth :[1, 1, 1]
+UF1:  0.49 | UAR: 0.4643 
+train_acc:  0.8844 | train_loss: 42.9332 
+val_acc:  1.0 | val_loss: 0.5882 
+######################################
+Subject:5
+Predicted    :[1, 2, 2, 2, 2, 1, 1]
+Ground Truth :[1, 2, 2, 2, 2, 2, 0]
+UF1:  0.5044 | UAR: 0.4815 
+train_acc:  0.9091 | train_loss: 36.8811 
+val_acc:  0.7143 | val_loss: 4.9647 
+######################################
+Subject:6
+Predicted    :[0, 2, 0, 2]
+Ground Truth :[0, 2, 1, 2]
+UF1:  0.5685 | UAR: 0.5644 
+train_acc:  0.8973 | train_loss: 46.7721 
+val_acc:  0.75 | val_loss: 2.0873 
+######################################
+Subject:7
+Predicted    :[1, 1, 1, 1, 1]
+Ground Truth :[1, 1, 1, 1, 1]
+UF1:  0.5963 | UAR: 0.5942 
+train_acc:  0.9034 | train_loss: 45.2353 
+val_acc:  1.0 | val_loss: 0.68 
+######################################
+Subject:8
+Predicted    :[1]
+Ground Truth :[1]
+UF1:  0.6003 | UAR: 0.5985 
+train_acc:  0.8926 | train_loss: 47.277 
+val_acc:  1.0 | val_loss: 0.1629 
+######################################
+Subject:9
+Predicted    :[1, 1, 1, 2, 0, 1, 1, 0, 0, 1]
+Ground Truth :[1, 1, 1, 0, 0, 1, 1, 0, 0, 0]
+UF1:  0.6772 | UAR: 0.6801 
+train_acc:  0.8714 | train_loss: 45.478 
+val_acc:  0.8 | val_loss: 6.0467 
+######################################
+Subject:11
+Predicted    :[1, 0, 1, 1]
+Ground Truth :[1, 1, 1, 1]
+UF1:  0.6727 | UAR: 0.6789 
+train_acc:  0.8836 | train_loss: 48.3786 
+val_acc:  0.75 | val_loss: 1.508 
+######################################
+Subject:12
+Predicted    :[1, 1, 1, 0, 1, 2, 2, 2, 2, 1, 1]
+Ground Truth :[0, 1, 1, 0, 1, 2, 2, 2, 2, 1, 1]
+UF1:  0.7061 | UAR: 0.7089 
+train_acc:  0.8777 | train_loss: 54.0794 
+val_acc:  0.9091 | val_loss: 3.7048 
+######################################
+Subject:13
+Predicted    :[1, 1]
+Ground Truth :[0, 0]
+UF1:  0.6871 | UAR: 0.6856 
+train_acc:  0.8716 | train_loss: 50.6965 
+val_acc:  0.0 | val_loss: 2.1453 
+######################################
+Subject:14
+Predicted    :[0, 0, 1]
+Ground Truth :[0, 0, 0]
+UF1:  0.7057 | UAR: 0.7032 
+train_acc:  0.8912 | train_loss: 44.2433 
+val_acc:  0.6667 | val_loss: 2.0505 
+######################################
+Subject:15
+Predicted    :[0, 2, 1]
+Ground Truth :[0, 2, 1]
+UF1:  0.7215 | UAR: 0.7188 
+train_acc:  0.8844 | train_loss: 50.7209 
+val_acc:  1.0 | val_loss: 0.7148 
+######################################
+Subject:16
+Predicted    :[0, 1, 1]
+Ground Truth :[0, 0, 1]
+UF1:  0.7247 | UAR: 0.7215 
+train_acc:  0.8912 | train_loss: 46.0949 
+val_acc:  0.6667 | val_loss: 1.6762 
+######################################
+Subject:17
+Predicted    :[1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 2, 0, 1, 2, 1, 1, 0, 1, 1, 1, 1]
+Ground Truth :[1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 2, 1, 1, 0, 1, 1, 1, 1]
+UF1:  0.7436 | UAR: 0.7449 
+train_acc:  0.8908 | train_loss: 37.8696 
+val_acc:  0.8387 | val_loss: 13.4063 
+######################################
+Subject:19
+Predicted    :[2, 1, 2, 1, 2, 1, 1, 1, 0, 2, 1]
+Ground Truth :[2, 0, 2, 2, 2, 0, 1, 1, 0, 2, 1]
+UF1:  0.741 | UAR: 0.7353 
+train_acc:  0.9137 | train_loss: 46.3969 
+val_acc:  0.7273 | val_loss: 5.9577 
+######################################
+Subject:20
+Predicted    :[1, 1]
+Ground Truth :[1, 1]
+UF1:  0.7427 | UAR: 0.7367 
+train_acc:  0.9122 | train_loss: 40.3714 
+val_acc:  1.0 | val_loss: 0.3117 
+######################################
+Subject:21
+Predicted    :[0]
+Ground Truth :[1]
+UF1:  0.7374 | UAR: 0.7324 
+train_acc:  0.906 | train_loss: 48.9961 
+val_acc:  0.0 | val_loss: 0.8578 
+######################################
+Subject:22
+Predicted    :[1, 1]
+Ground Truth :[1, 1]
+UF1:  0.739 | UAR: 0.7338 
+train_acc:  0.9324 | train_loss: 37.1284 
+val_acc:  1.0 | val_loss: 0.1745 
+######################################
+Subject:23
+Predicted    :[1, 1, 1, 1, 1, 0, 1, 1]
+Ground Truth :[1, 1, 1, 1, 0, 1, 1, 1]
+UF1:  0.7336 | UAR: 0.7285 
+train_acc:  0.9014 | train_loss: 37.7427 
+val_acc:  0.75 | val_loss: 3.6965 
+######################################
+Subject:24
+Predicted    :[1, 0, 2, 2, 0, 1]
+Ground Truth :[1, 2, 2, 2, 2, 1]
+UF1:  0.7212 | UAR: 0.7111 
+train_acc:  0.9097 | train_loss: 39.6169 
+val_acc:  0.6667 | val_loss: 3.5502 
+######################################
+Subject:25
+Predicted    :[1, 1, 1, 1, 1]
+Ground Truth :[2, 2, 1, 1, 1]
+UF1:  0.7091 | UAR: 0.6936 
+train_acc:  0.8897 | train_loss: 41.5471 
+val_acc:  0.6 | val_loss: 3.7848 
+######################################
+Subject:26
+Predicted    :[0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Ground Truth :[0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+UF1:  0.7257 | UAR: 0.7093 
+train_acc:  0.8993 | train_loss: 47.0406 
+val_acc:  1.0 | val_loss: 1.9744 
+######################################
+Final Evaluation:  
+UF1:  0.7257 | UAR: 0.7093 
+Total Time Taken:  16887.355668783188
